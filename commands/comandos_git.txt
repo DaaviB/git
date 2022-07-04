@@ -65,6 +65,7 @@
     - git diff 
     - git diff branch_1 branch_2 ( em branchs diferentes )
     - git diff --name-only ( mostrará apenas os nomes dos arquivo alterados )
+    - git diff nome_arquivo ( mostrará as alterações no arquivo especificado )
 
 -> Shortcuts:
     - git checkout -b nome_da_branch ( criar e move para a nova branch )
