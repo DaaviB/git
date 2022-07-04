@@ -67,6 +67,14 @@
     - git diff --name-only ( mostrará apenas os nomes dos arquivo alterados )
     - git diff nome_arquivo ( mostrará as alterações no arquivo especificado )
 
+
+-> Alterações que ocorreram no commit:
+    -> git show
+    -> git show <commit>
+
+-> Retornando um arquivo para seu estado original pos-commit:
+    - git checkout HEAD -- nome_arquivo
+
 -> Shortcuts:
     - git checkout -b nome_da_branch ( criar e move para a nova branch )
     - git commit -am 'mensagem' ( -am irá adicionar e salvar as alterações )
