@@ -47,5 +47,9 @@
 -> Olhando o estado da branch:
     - git status (mostrará o estado atual da branch atual)
 
+-> Deletando uma branch:
+    - git branch -d nome_da_branch ( Forma segura)
+    - git branch -D nome_da_branch ( A branch será deletada instantaneamente)
+
 -> Shortcuts:
     - git checkout -b nome_da_branch (criar e move para a nova branch)
