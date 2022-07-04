@@ -39,13 +39,13 @@
 
 -> Listando todas as branchs:
     - git branch (locais)
-    - git branch -a (locais e remotas)
+    - git branch -a ( locais e remotas )
 
 -> Mudando de branch:
     - git checkout nome_da_branch
 
 -> Olhando o estado da branch:
-    - git status (mostrará o estado atual da branch atual)
+    - git status ( mostrará o estado atual da branch atual )
 
 -> Deletando uma branch:
     - git branch -d nome_da_branch ( Forma segura )
@@ -54,9 +54,16 @@
 
 -> Resetando as alterações que foram feitas em um commit:
     - git reset <commit>
-    - git reset --hard <commit>
     - git reset --soft <commit>
+    - git reset --hard <commit>
+
+-> Unindo alterações de branchs diferentes:
+    -> Na branch principal <main>:
+        - git merge
+
+-> Mostrando detalhadamente as modificações:
+    - git diff 
 
 -> Shortcuts:
     - git checkout -b nome_da_branch ( criar e move para a nova branch )
-    - git commit -am 'mensagem' (-am irá adicionar e salvar as alterações)
+    - git commit -am 'mensagem' ( -am irá adicionar e salvar as alterações )
