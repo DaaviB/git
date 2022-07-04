@@ -85,9 +85,7 @@
 
 -> Revertendo um commit:
     - git revert --no-edit <commit>
-    Irei reverter isto
-
+    
 -> Shortcuts:
     - git checkout -b nome_da_branch ( criar e move para a nova branch )
     - git commit -am 'mensagem' ( -am irá adicionar e salvar as alterações )
-
