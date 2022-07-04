@@ -1,0 +1,71 @@
+-> Configuração iniciais:
+    - git config --global user.name 'seu nome'
+    - git config --global user.email 'seu email'
+    - git config --global user init.defaultBranch main
+
+    -> Adicionando o repositório remoto:
+        - git remote add origin https://github.com/perfil/repositório.git
+    -> Opcional ( Adicionando meu editor - VSCODE):
+        - git config --global core.editor code 
+
+-> Inicializando um repositório local:
+    - git init 
+
+-> Adicionando o arquivo README.md:
+    - Na raiz do projeto, crie um arquivo README.md.
+    - Nesse arquivo você irá adicionar uma descrição sobre o seu projeto e entre outras coisas.
+
+-> Adicionando o arquivo .gitignore para excluir arquivos/pastas que não queremos monitorar:
+    - Crie um arquivo .gitignore na raiz do projeto 
+    - Adicione pastas e arquivos que deseja que o git ignore.
+
+-> Adicionando arquivos para serem monitorados pelo git:
+    - git add nome_arquivo OU ( git add . OU git add -A ) para adicionar todos.
+
+-> Salvandos as alterações:
+    - git commit -m 'breve mensagem sobre o que foi feito.'
+
+->  Enviando alterações para o repositório remoto:
+    - git push -u origin main 
+
+-> Sicronizando as alterações do repositório remoto com o repositório local:
+    - git pull origin main OU git pull
+
+-> Listando commits que já foram feitos:
+    - git log
+
+-> Criando novas branchs:
+    - git branch nome_da_branch
+
+-> Listando todas as branchs:
+    - git branch ( locais )
+    - git branch -a ( locais e remotas )
+
+-> Mudando de branch:
+    - git checkout nome_da_branch
+
+-> Olhando o estado da branch:
+    - git status ( mostrará o estado atual da branch atual )
+
+-> Deletando uma branch:
+    - git branch -d nome_da_branch ( Forma segura )
+    - git branch -D nome_da_branch ( A branch será deletada instantaneamente)
+
+
+-> Resetando as alterações que foram feitas em um commit:
+    - git reset <commit>
+    - git reset --soft <commit>
+    - git reset --hard <commit>
+
+-> Unindo alterações de branchs diferentes:
+    -> Na branch principal <main>:
+        - git merge
+
+-> Mostrando detalhadamente as modificações dos arquivos:
+    - git diff 
+    - git diff branch_1 branch_2 ( em branchs diferentes )
+    - git diff --name-only ( mostrará apenas os nomes dos arquivo alterados )
+
+-> Shortcuts:
+    - git checkout -b nome_da_branch ( criar e move para a nova branch )
+    - git commit -am 'mensagem' ( -am irá adicionar e salvar as alterações )
