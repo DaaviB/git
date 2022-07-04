@@ -1,4 +1,4 @@
--> Configuração iniciais:
+-> Configurações iniciais:
     - git config --global user.name 'seu nome'
     - git config --global user.email 'seu email'
     - git config --global user init.defaultBranch main
@@ -83,6 +83,9 @@
 -> Removeno um repositório remoto:
     - git remote rm nome_do_remoto
 
+-> Revertendo um commit:
+    - git revert --no-edit <commit>
+    
 -> Shortcuts:
     - git checkout -b nome_da_branch ( criar e move para a nova branch )
     - git commit -am 'mensagem' ( -am irá adicionar e salvar as alterações )
