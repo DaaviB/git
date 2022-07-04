@@ -38,7 +38,7 @@
     - git branch nome_da_branch
 
 -> Listando todas as branchs:
-    - git branch (locais)
+    - git branch ( locais )
     - git branch -a ( locais e remotas )
 
 -> Mudando de branch:
@@ -63,6 +63,7 @@
 
 -> Mostrando detalhadamente as modificações:
     - git diff 
+    - git diff branch_1 branch_2
 
 -> Shortcuts:
     - git checkout -b nome_da_branch ( criar e move para a nova branch )
