@@ -53,7 +53,10 @@
 
 
 -> Resetando as alterações que foram feitas em um commit:
-    - git reset 
+    - git reset <commit>
+    - git reset --hard <commit>
+    - git reset --soft <commit>
 
 -> Shortcuts:
     - git checkout -b nome_da_branch ( criar e move para a nova branch )
+    - git commit -am 'mensagem' (-am irá adicionar e salvar as alterações)
