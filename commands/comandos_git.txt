@@ -5,6 +5,7 @@
 
     -> Adicionando o repositório remoto:
         - git remote add origin https://github.com/perfil/repositório.git
+
     -> Opcional ( Adicionando meu editor - VSCODE):
         - git config --global core.editor code 
 
@@ -74,6 +75,13 @@
 
 -> Retornando um arquivo para seu estado original pos-commit:
     - git checkout HEAD -- nome_arquivo
+
+-> Listando os repositórios remotos:
+    - git remote
+    - git remote -v
+
+-> Removeno um repositório remoto:
+    - git remote rm nome_do_remoto
 
 -> Shortcuts:
     - git checkout -b nome_da_branch ( criar e move para a nova branch )
