@@ -85,7 +85,14 @@
 
 -> Revertendo um commit:
     - git revert --no-edit <commit>
+
+-> Clonando um repositório:
+    - git clone https://github.conm/perfil/repositório
+
+-> Deletando um repositório remoto:
+    - git push origin --delete <branch>
     
 -> Shortcuts:
     - git checkout -b nome_da_branch ( criar e move para a nova branch )
     - git commit -am 'mensagem' ( -am irá adicionar e salvar as alterações )
+    - git push origin : <branch> ( forma encurtada para deletar uma branch remota. )
